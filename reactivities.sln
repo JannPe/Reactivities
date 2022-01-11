@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{11B842BC-DC75-49D6-9463-44579750D153}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{99031F50-9E42-4CAC-889F-6E785A068D2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{11B842BC-DC75-49D6-9463-44579750D153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B842BC-DC75-49D6-9463-44579750D153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11B842BC-DC75-49D6-9463-44579750D153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99031F50-9E42-4CAC-889F-6E785A068D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99031F50-9E42-4CAC-889F-6E785A068D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99031F50-9E42-4CAC-889F-6E785A068D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99031F50-9E42-4CAC-889F-6E785A068D2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
