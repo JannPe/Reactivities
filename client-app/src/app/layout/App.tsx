@@ -15,6 +15,7 @@ import LoginForm from '../../features/users/LoginForm';
 import { useStore } from '../stores/store';
 import LoadingComponent from './LoadingComponents';
 import ModalContainer from '../common/modals/ModalContainer';
+import ProfilePage from '../../features/profiles/ProfilePage';
 
 
 
@@ -49,9 +50,10 @@ function App() {
                 <Route exact path='/activities' component={ActivityDashboard}/> 
                 <Route path='/activities/:id' component={ActivityDetails}/> 
                 <Route key={location.key} path={['/createActivity','/manage/:id']} component={ActivityForm}/> 
-                <Route path='/errors' component={TestErrors}></Route>
-                <Route path='/server-error' component={ServerError}></Route>
-                <Route path='/login' component={LoginForm}></Route>
+                <Route path='/profiles/:username' component={ProfilePage}/>
+                <Route path='/errors' component={TestErrors}/>
+                <Route path='/server-error' component={ServerError}/>
+                <Route path='/login' component={LoginForm}/>
                 <Route component={NotFound} />
               </Switch>
             </Container>
